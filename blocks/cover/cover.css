@@ -11,3 +11,29 @@
   text-align: center;
   position: relative;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+    margin: 90px auto 88px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .cover {
+    min-height: 320px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+    margin: 66px auto 64px;
+  }
+}

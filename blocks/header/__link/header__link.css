@@ -6,3 +6,10 @@
   line-height: calc(28/24);
   font-weight: normal;
 }
+
+@media screen and (max-width: 320px) {
+  .header {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}

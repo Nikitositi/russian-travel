@@ -1,5 +1,11 @@
 .lead {
   max-width: 984px;
   margin: 56px auto 0;
-  padding: 0 2%; /* предотвращение прижатия контента к краям */
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    margin-top: 48px;
+  }
 }
